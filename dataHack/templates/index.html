@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wordcloud Generator</title>
+</head>
+<body>
+	<h1>Wordcloud Generator</h1>
+	<form action="/test" method="post">
+		<label for="category">Category:</label>
+		<input type="number" name="category" id="category">
+		<input type="submit" value="Generate Wordcloud">
+	</form>
+    <img src="{{ cloud }}" alt="wordcloud">
+
+</body>
+</html>
